@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  margin: 10em;
+}
+.cajaroja {
+  background-color: rgb(243, 26, 26);
+  width: 600px;
+  height: 300px;
+  margin: 10em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#header {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  text-align: center;
+}
+#article {
+  background-color: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+}
+#foto {
+  background-color: green;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
